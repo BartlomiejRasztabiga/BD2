@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5C2F96F-88E1-B403-66E3-3297FCB716A1" name="Zajęcia">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-20 10:13:49 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="E04B84BF-0F79-873D-1720-B4740E345251" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Zajęcia</preferredAbbreviation>
+<shortName>ZAJEC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID zajęć" id="89F24AA7-4158-3046-F908-EFEDDBBA2EF7">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-21 20:50:51 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="E04B84BF-0F79-873D-1720-B4740E345251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ" id="AD3C6A07-E148-09CB-0485-C978E995A2A5">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-20 17:21:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[typ zajęć:
+W - wyklad
+C - cwiczenia
+L - laboratoria
+P - projekt]]></commentInRDBMS>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="E04B84BF-0F79-873D-1720-B4740E345251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Liczba godzin rzeczywistych" id="850A1055-D2B4-E2D6-0EBE-923BD9FFDFCC">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-20 17:22:53 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="E04B84BF-0F79-873D-1720-B4740E345251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Liczba godzin rozliczeniowych" id="39B74F4A-F8FF-523B-20E4-7546164B59E0">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-21 21:03:23 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="E04B84BF-0F79-873D-1720-B4740E345251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kod" id="259B20CC-2657-2D47-A2D8-E9C03CD77B52">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-21 20:45:41 UTC</createdTime>
+<generatorID>56446A5C-0BD1-F6CB-8FE4-BCEA85B6B2C4</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="E04B84BF-0F79-873D-1720-B4740E345251" value="true"/>
+</engineerTo>
+<referedAttribute>78BD0301-082C-2575-A823-7E66658B26A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="235DE684-CA3D-D67E-DBDE-4C37A48B97D8" name="Zajęcia PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-21 20:51:04 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E04B84BF-0F79-873D-1720-B4740E345251" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89F24AA7-4158-3046-F908-EFEDDBBA2EF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

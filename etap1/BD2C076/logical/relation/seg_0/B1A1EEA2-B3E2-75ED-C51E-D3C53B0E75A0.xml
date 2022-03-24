@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Instytyt_prowadzi_Przedmioty" directorySegmentName="seg_0" id="B1A1EEA2-B3E2-75ED-C51E-D3C53B0E75A0">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-20 16:51:53 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="7254C772-4463-000D-3F26-60D36758D582" value="true"/>
+</engineerTo>
+<sourcePk>E75A495F-8B26-2F37-0B5E-7ABB3144D237</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>prowadzi</nameOnSource>
+<nameOnTarget>prowadzony przez</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75189E78-6B32-C908-DD41-7581549DDE7A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>877FB20A-3BA6-0A55-8FE6-47AAE2180303</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

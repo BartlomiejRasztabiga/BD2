@@ -1,0 +1,3 @@
+Zadanie 55 
+Zadanie należy rozwiązać postępując dokładnie według instrukcji do projektu. 
+Biuro uczelni rozlicza zajęcia dydaktyczne. Każdy przedmiot obejmuje zajęcia kilku typów (np. wykłady, ćwiczenia, projekty, laboratoria itp.). Przedmioty przypisane są do konkretnego wydziału oraz instytutu na tym wydziale. Każde zajęcia mają pewną liczbę godzin rzeczywistych oraz pewną ilość (niekoniecznie całkowitą) tzw. godzin rozliczeniowych. Baza danych obejmuje jeden rok akademicki (dwa semestry), ale rozliczenie każdego semestru musi móc mieć kilka wersji. 

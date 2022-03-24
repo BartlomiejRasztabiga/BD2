@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53A1D46A-B28E-8A79-8926-55632D4D8A95" name="Przedmioty">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<generatorID>877FB20A-3BA6-0A55-8FE6-47AAE2180303</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<abbreviation>PRZED</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kod" id="458E1E51-DAD5-CF6E-9C76-7F0E59C88343">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<generatorID>78BD0301-082C-2575-A823-7E66658B26A9</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="6401AB51-7024-5313-5AB8-67C75AF81070">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<generatorID>FC1FD695-6C07-AE83-73EE-3E3DAA6E75FC</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instytuty_ID_instytutu" id="310623C3-9E46-071C-FE6F-3E9A7E6CB800">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<generatorID>B9BA6C01-CE4C-4383-7368-4BA1B5633793</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B24A450D-78A9-3958-5DD2-72EE23EEE0D1" referredColumn="9FC237D8-DE23-361D-ED0D-053356F8993B"/>
+</associations>
+</Column>
+<Column name="Wydziały_ID_wydziału" id="4CA75B02-B7C4-57FF-2C3B-9FA9FDD0E4FE">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<generatorID>A91E7CF3-1394-3338-6165-9001EDB87721</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4831AC0-1CCF-43DC-5EA1-593DB749E571" referredColumn="7508BFDF-5355-F4D8-83C5-CDE2803D0DF6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2A3C2F0-48A9-A455-C243-BA7901A56540" name="Przedmioty_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<generatorID>3A9E8C78-FB1D-509B-B24B-F98CCA6FEF60</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="458E1E51-DAD5-CF6E-9C76-7F0E59C88343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98E56FFD-486C-73C3-F124-E182A7AB1D5C" name="Przedmioty_Nazwa_UN">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:26:57 UTC</createdTime>
+<generatorID>487DA3D9-B584-CAEC-5D64-10C36C1C5F12</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6401AB51-7024-5313-5AB8-67C75AF81070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E516D30-4E4E-8B30-D8E6-7D1EDFD366EC" name="Przedmioty_Instytuty_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<generatorID>B1A1EEA2-B3E2-75ED-C51E-D3C53B0E75A0</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="310623C3-9E46-071C-FE6F-3E9A7E6CB800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F859C643-1571-EB43-F69A-187D3D2FC02A" name="Przedmioty_Wydziały_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<generatorID>C9BB9959-8AE0-E86A-AEED-9E062F2AA972</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CA75B02-B7C4-57FF-2C3B-9FA9FDD0E4FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
