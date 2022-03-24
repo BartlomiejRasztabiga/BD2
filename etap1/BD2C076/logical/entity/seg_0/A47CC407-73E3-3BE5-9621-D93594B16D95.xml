@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5C2F96F-88E1-B403-66E3-3297FCB716A1" name="Zajęcia">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A47CC407-73E3-3BE5-9621-D93594B16D95" name="Rozliczenie Zajęć">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-20 10:13:49 UTC</createdTime>
+<createdTime>2022-03-24 08:58:36 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
 <item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
@@ -14,43 +14,42 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>Zajęcia</preferredAbbreviation>
-<shortName>ZAJEC</shortName>
+<preferredAbbreviation>Rozliczenia Zajęć</preferredAbbreviation>
+<shortName>ROZL_ZAJ</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID zajęć" id="89F24AA7-4158-3046-F908-EFEDDBBA2EF7">
+<Attribute name="ID rozliczenia" id="14DA3361-1BBE-32E9-446F-F3695B521A50">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-21 20:50:51 UTC</createdTime>
+<createdTime>2022-03-24 08:58:58 UTC</createdTime>
+<generatorID>230A359E-FB6A-7D16-A3E9-ABC7993BE839</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
 <item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
 </engineerTo>
+<referedAttribute>319D15FC-28CB-7DBA-1650-9B7AE48E9F8E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Typ" id="AD3C6A07-E148-09CB-0485-C978E995A2A5">
+<Attribute name="ID zajęć" id="A3B6F7ED-53A9-8391-7953-1AA4DEC8FAAE">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-20 17:21:05 UTC</createdTime>
-<commentInRDBMS><![CDATA[typ zajęć:
-W - wyklad
-C - cwiczenia
-L - laboratoria
-P - projekt]]></commentInRDBMS>
+<createdTime>2022-03-24 09:02:59 UTC</createdTime>
+<generatorID>E721C449-A9DB-51AA-BA1C-3878CE7E269A</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
 <item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
 </engineerTo>
+<referedAttribute>89F24AA7-4158-3046-F908-EFEDDBBA2EF7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Liczba godzin rzeczywistych" id="850A1055-D2B4-E2D6-0EBE-923BD9FFDFCC">
+<Attribute name="Liczba godzin rozliczeniowych" id="51AECBC6-C7DD-7AA5-C381-F294EBE5D119">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-20 17:22:53 UTC</createdTime>
+<createdTime>2022-03-24 09:06:11 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
 <item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
@@ -62,33 +61,19 @@ P - projekt]]></commentInRDBMS>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kod" id="259B20CC-2657-2D47-A2D8-E9C03CD77B52">
-<createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-21 20:45:41 UTC</createdTime>
-<generatorID>56446A5C-0BD1-F6CB-8FE4-BCEA85B6B2C4</generatorID>
-<ownerDesignName>BD2C076</ownerDesignName>
-<engineerTo>
-<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
-</engineerTo>
-<referedAttribute>78BD0301-082C-2575-A823-7E66658B26A9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="235DE684-CA3D-D67E-DBDE-4C37A48B97D8" name="Zajęcia PK">
+<identifier id="11076B31-1F37-8113-33B6-EEE5ED68725F" name="Rozliczenie Zajęć PK">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-21 20:51:04 UTC</createdTime>
+<createdTime>2022-03-24 09:14:47 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
 <item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>89F24AA7-4158-3046-F908-EFEDDBBA2EF7</attributeRef>
+<attributeRef>14DA3361-1BBE-32E9-446F-F3695B521A50</attributeRef>
+<attributeRef>A3B6F7ED-53A9-8391-7953-1AA4DEC8FAAE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

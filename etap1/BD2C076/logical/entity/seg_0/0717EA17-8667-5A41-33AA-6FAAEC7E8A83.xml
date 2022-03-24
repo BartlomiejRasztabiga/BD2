@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0717EA17-8667-5A41-33AA-6FAAEC7E8A83" name="Rozliczenie">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0717EA17-8667-5A41-33AA-6FAAEC7E8A83" name="Rozliczenie Semestru">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-03-20 16:32:26 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="7254C772-4463-000D-3F26-60D36758D582" value="true"/>
+<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,36 +14,21 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>Rozliczenia</preferredAbbreviation>
-<shortName>ROZL</shortName>
+<preferredAbbreviation>Rozliczenia Semestrów</preferredAbbreviation>
+<shortName>ROZL_SEM</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="ID rozliczenia" id="319D15FC-28CB-7DBA-1650-9B7AE48E9F8E">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-03-21 20:50:24 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="7254C772-4463-000D-3F26-60D36758D582" value="true"/>
+<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID semestru" id="C9F86837-D9D1-FF12-A292-8C948405FEE3">
-<createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-21 20:58:41 UTC</createdTime>
-<generatorID>65C4087C-2638-27DC-7D16-5D4EFCD0AD20</generatorID>
-<ownerDesignName>BD2C076</ownerDesignName>
-<engineerTo>
-<item key="7254C772-4463-000D-3F26-60D36758D582" value="true"/>
-</engineerTo>
-<referedAttribute>BC227B5B-03B2-EC0B-7FE7-35256FAEB97C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -52,7 +37,7 @@
 <createdTime>2022-03-21 20:50:33 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="7254C772-4463-000D-3F26-60D36758D582" value="true"/>
+<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AADBFC5D-8FF6-B052-A70D-B883D9826F25" name="Semestry">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8012E8C4-6A71-744A-8D9C-5B6F5B6B2734" name="Semestry">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <generatorID>8B923CEE-3A4A-35D5-8FF4-E7D5CA61C646</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <abbreviation>SEM</abbreviation>
@@ -9,21 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_semestru" id="CCBCBD6D-4858-3B97-5368-A17432A79FB4">
+<Column name="Rok" id="A7378225-701D-E9A4-6CE7-6BB3A644EEF6">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
-<generatorID>BC227B5B-03B2-EC0B-7FE7-35256FAEB97C</generatorID>
-<ownerDesignName>BD2C076</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Rok" id="A9150AF3-D8F5-6958-18F0-179727104765">
-<createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <generatorID>933A27AA-3FE9-6A67-46C3-087F315AA46B</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,9 +21,9 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Okres" id="B1870D6F-82E7-3769-DA2C-8247C4A49D4D">
+<Column name="Okres" id="D12C5DB3-9057-77CA-4254-F8D72A6FA911">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <commentInRDBMS><![CDATA[okres semestru - L (letni) lub Z (zimowy)]]></commentInRDBMS>
 <generatorID>A6828092-D678-C0E3-B4E0-0B05EBB25404</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
@@ -48,16 +36,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E005CBD1-59D1-ED86-7935-07BD253AB2B2" name="Semestry_PK">
+<ind_PK_UK id="6C5C0E45-DAAB-A86D-7EA8-E463359C8FAA" name="Semestry_PK">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
-<generatorID>31AE190B-E26C-7211-ECCF-178E51B588E9</generatorID>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
+<generatorID>5492EBBC-5439-F0EB-CB92-509ADB6D8B49</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CCBCBD6D-4858-3B97-5368-A17432A79FB4"/>
+<colUsage columnID="A7378225-701D-E9A4-6CE7-6BB3A644EEF6"/>
+<colUsage columnID="D12C5DB3-9057-77CA-4254-F8D72A6FA911"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

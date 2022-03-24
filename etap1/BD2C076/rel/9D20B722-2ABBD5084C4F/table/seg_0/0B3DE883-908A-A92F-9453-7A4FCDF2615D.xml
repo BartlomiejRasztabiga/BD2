@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72ABA2A4-63FF-341F-FF0A-C2ECC2DBF2F0" name="Zajęcia">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B3DE883-908A-A92F-9453-7A4FCDF2615D" name="Zajęcia">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <generatorID>E5C2F96F-88E1-B403-66E3-3297FCB716A1</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <abbreviation>ZAJEC</abbreviation>
@@ -9,9 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_zajęć" id="93277634-C890-CA41-C968-A3FC3FCDB07E">
+<Column name="ID_zajęć" id="5FB8725E-21B0-D4B2-DC89-1E0AE51E6F5F">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <generatorID>89F24AA7-4158-3046-F908-EFEDDBBA2EF7</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Typ" id="A050884A-0722-914B-5FF1-44867D8D2BEB">
+<Column name="Typ" id="A9AD5525-98E4-256A-481C-115C17D7340A">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <commentInRDBMS><![CDATA[typ zajęć:
 W - wyklad
 C - cwiczenia
@@ -38,9 +38,9 @@ P - projekt]]></commentInRDBMS>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Liczba_godzin_rzeczywistych" id="033754AC-41AF-AD62-B60B-4ABE7C186758">
+<Column name="Liczba_godzin_rzeczywistych" id="F3817FDB-8C05-B175-2E75-30C1DEBF8DE1">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <generatorID>850A1055-D2B4-E2D6-0EBE-923BD9FFDFCC</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -51,58 +51,45 @@ P - projekt]]></commentInRDBMS>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Liczba_godzin_rozliczeniowych" id="2148CEAB-23E4-EFF1-171E-FE5598881305">
+<Column name="Przedmioty_Kod" id="032F3963-877B-0DA6-8014-FF40FAEA3F4C">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
-<generatorID>39B74F4A-F8FF-523B-20E4-7546164B59E0</generatorID>
-<ownerDesignName>BD2C076</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Przedmioty_Kod" id="06E50B9C-2DD0-0DCF-1807-3C1330FE12FC">
-<createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <generatorID>259B20CC-2657-2D47-A2D8-E9C03CD77B52</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1020C33E-AE78-F8B9-ACEA-ED87F45DCC3D" referredColumn="458E1E51-DAD5-CF6E-9C76-7F0E59C88343"/>
+<colAssociation fkAssociation="7E529508-051B-B1BD-1174-6139E96712AA" referredColumn="91057717-C5A7-92D5-9273-667C182F4D52"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3DFE60B6-B09D-91AC-A885-71DB08906AE0" name="Zajęcia_PK">
+<ind_PK_UK id="B5ECA8AA-1CE7-3DC3-E755-56D1151CF2FE" name="Zajęcia_PK">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <generatorID>235DE684-CA3D-D67E-DBDE-4C37A48B97D8</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="93277634-C890-CA41-C968-A3FC3FCDB07E"/>
+<colUsage columnID="5FB8725E-21B0-D4B2-DC89-1E0AE51E6F5F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D4D5FDBF-653E-87F1-1627-B900A3D24733" name="Zajęcia_Przedmioty_FK">
+<ind_PK_UK id="3FECE10F-5078-D763-4B7D-7D7A26151222" name="Zajęcia_Przedmioty_FK">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-23 21:23:08 UTC</createdTime>
+<createdTime>2022-03-24 09:51:46 UTC</createdTime>
 <generatorID>56446A5C-0BD1-F6CB-8FE4-BCEA85B6B2C4</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="06E50B9C-2DD0-0DCF-1807-3C1330FE12FC"/>
+<colUsage columnID="032F3963-877B-0DA6-8014-FF40FAEA3F4C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

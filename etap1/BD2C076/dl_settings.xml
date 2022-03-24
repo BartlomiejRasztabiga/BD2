@@ -90,7 +90,7 @@
 		</type>
 		</classification_types>
 	<default_fonts_and_colors>
-		<fc_object classname="Entity" background="-5971457" foreground="-1" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Entity" background="-1" foreground="-16776961" noBackgroundColor="false" noForegroundColor="false">
 		<fonts>
 			<font_object fo_type="Title" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1" id="1"/>
 			<font_object fo_type="Attribute" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0" id="3"/>
@@ -391,7 +391,7 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="E04B84BF-0F79-873D-1720-B4740E345251">
+		<model_options objectid="9D20B722-19F4-9239-DDE4-2ABBD5084C4F">
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />

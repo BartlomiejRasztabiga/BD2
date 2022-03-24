@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Semestr_ma_Rozliczenia" directorySegmentName="seg_0" id="65C4087C-2638-27DC-7D16-5D4EFCD0AD20">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zajecia_maja_Rozliczenia_Zajec" directorySegmentName="seg_0" id="E721C449-A9DB-51AA-BA1C-3878CE7E269A">
 <createdBy>rasztabigab</createdBy>
-<createdTime>2022-03-21 20:44:01 UTC</createdTime>
+<createdTime>2022-03-24 09:02:59 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
 <item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
 </engineerTo>
-<sourcePk>31AE190B-E26C-7211-ECCF-178E51B588E9</sourcePk>
+<sourcePk>235DE684-CA3D-D67E-DBDE-4C37A48B97D8</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>rozliczany przez</nameOnSource>
+<nameOnSource>rozliczane przez</nameOnSource>
 <nameOnTarget>rozlicza</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>8B923CEE-3A4A-35D5-8FF4-E7D5CA61C646</sourceEntity>
+<sourceEntity>E5C2F96F-88E1-B403-66E3-3297FCB716A1</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>0717EA17-8667-5A41-33AA-6FAAEC7E8A83</targetEntity>
+<targetEntity>A47CC407-73E3-3BE5-9621-D93594B16D95</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
