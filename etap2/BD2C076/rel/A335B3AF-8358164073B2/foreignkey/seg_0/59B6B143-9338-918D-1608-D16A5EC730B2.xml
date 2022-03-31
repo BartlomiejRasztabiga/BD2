@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59B6B143-9338-918D-1608-D16A5EC730B2" containerWithKeyObject="1E8091AC-40F7-2080-ECAD-69391A34692E" localFKIndex="019188F7-CA7F-93BA-6880-F8C52CE5CBFB" name="Rozlicz_Zaj_Rozlicz_Semestr_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 18:27:47 UTC</createdTime>
+<generatorID>230A359E-FB6A-7D16-A3E9-ABC7993BE839</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<referredTableLongName>Rozliczenia Semestrów</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8AF95DA-E9D4-9C13-F210-5AE96800C14B</referredTableID>
+<keyObject>6940AEF1-334F-AD35-823F-99142DBDF857</keyObject>
+<referredKeyID>6940AEF1-334F-AD35-823F-99142DBDF857</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_rozliczenia</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

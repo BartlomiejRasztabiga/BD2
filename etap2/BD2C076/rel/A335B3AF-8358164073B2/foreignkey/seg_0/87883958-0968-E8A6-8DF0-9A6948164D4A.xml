@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87883958-0968-E8A6-8DF0-9A6948164D4A" containerWithKeyObject="C8AF95DA-E9D4-9C13-F210-5AE96800C14B" localFKIndex="D0BC0BE7-268A-6ECD-4782-4AD93A36CA75" name="Rozlicz_Semestr_Semestry_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 18:27:47 UTC</createdTime>
+<generatorID>65C4087C-2638-27DC-7D16-5D4EFCD0AD20</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<referredTableLongName>Semestry</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF6CED4A-2D92-949F-EC02-AB6024EBCC5C</referredTableID>
+<keyObject>1447E8E9-1CE2-8D0E-E7DF-1EE07531C3BF</keyObject>
+<referredKeyID>1447E8E9-1CE2-8D0E-E7DF-1EE07531C3BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rok,Okres</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

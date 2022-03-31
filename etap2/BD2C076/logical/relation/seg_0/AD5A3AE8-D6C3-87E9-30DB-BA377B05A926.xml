@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wydzial_posiada_Instytuty" directorySegmentName="seg_0" id="AD5A3AE8-D6C3-87E9-30DB-BA377B05A926">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-20 16:57:25 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="7254C772-4463-000D-3F26-60D36758D582" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>443A95B8-FF49-A5FC-3A09-993639B2DC1B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>zawarty w</nameOnSource>
+<nameOnTarget>zawiera</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8EE9D90-F8A0-B4E1-069F-E96B0BF9C16E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75189E78-6B32-C908-DD41-7581549DDE7A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

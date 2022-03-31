@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8162F3E3-4962-DB97-64A7-8A6E65C5274B" name="Wydziały">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 18:27:47 UTC</createdTime>
+<generatorID>B8EE9D90-F8A0-B4E1-069F-E96B0BF9C16E</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_wydziału" id="E2E1E347-02A1-2F02-26C6-BB396C2EA3F3">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 18:27:47 UTC</createdTime>
+<generatorID>8B78BBF2-E15D-24B7-5F7E-6787DDC5E1E2</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="BBE4774E-572C-EB26-3144-0AB4D82000DC">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 18:27:47 UTC</createdTime>
+<generatorID>E9042546-E39F-E497-5DC1-B67171A87F43</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75530F23-842B-357A-D8D8-A3CECC31C906" name="Wydziały_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 18:27:47 UTC</createdTime>
+<generatorID>443A95B8-FF49-A5FC-3A09-993639B2DC1B</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2E1E347-02A1-2F02-26C6-BB396C2EA3F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03EC565B-5C51-5BD4-387A-02CC12597CE3" name="Wydziały_Nazwa_UN">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 18:27:47 UTC</createdTime>
+<generatorID>AC08B4D6-3687-D079-94ED-9EFB12CB4931</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBE4774E-572C-EB26-3144-0AB4D82000DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

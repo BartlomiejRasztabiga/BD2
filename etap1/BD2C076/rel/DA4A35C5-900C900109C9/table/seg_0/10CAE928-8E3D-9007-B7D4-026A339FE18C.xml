@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10CAE928-8E3D-9007-B7D4-026A339FE18C" name="Semestry">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>8B923CEE-3A4A-35D5-8FF4-E7D5CA61C646</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<abbreviation>SEM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rok" id="A0578A6C-18A6-7D7E-2BE8-1D05A2596796">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>933A27AA-3FE9-6A67-46C3-087F315AA46B</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Okres" id="7A58EF9A-0DB8-E73A-5E54-57D505EE4043">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[okres semestru - L (letni) lub Z (zimowy)]]></commentInRDBMS>
+<generatorID>A6828092-D678-C0E3-B4E0-0B05EBB25404</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36CE0D95-1B1A-B7C4-6BD9-11889F90DF30" name="Semestry_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>5492EBBC-5439-F0EB-CB92-509ADB6D8B49</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0578A6C-18A6-7D7E-2BE8-1D05A2596796"/>
+<colUsage columnID="7A58EF9A-0DB8-E73A-5E54-57D505EE4043"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

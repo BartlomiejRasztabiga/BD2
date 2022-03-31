@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="672E56AF-AB50-F4EA-AFA9-32A41FF1BC16" name="Rozliczenia Zajęć">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>A47CC407-73E3-3BE5-9621-D93594B16D95</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<abbreviation>ROZL_ZAJ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rozliczenia Semestrów_ID_rozliczenia" id="CEE10C14-3F4E-5816-F3AF-AA0BAF774830">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>369F93B9-EDC2-DF65-E25F-DD19FF792A1E</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B0E441F-EB6F-638C-FA0C-CA32A66BA5DC" referredColumn="E2FD39DB-4DF9-2B90-A3F5-DCBCC4250E20"/>
+</associations>
+</Column>
+<Column name="Liczba_godzin_rozliczeniowych" id="BF3BE8BE-4404-74EE-E945-FFEF67981B94">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>51AECBC6-C7DD-7AA5-C381-F294EBE5D119</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Liczba_godzin_rzeczywistych" id="2C7ACFBC-73DC-3E22-9D17-CF95206DA81C">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>52BF0A58-F295-961E-FAE8-2740A7B55B78</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zajęcia_Typ" id="CE929221-141E-5FC2-B0F6-04ABF472C38E">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>6B156015-2264-C85E-A216-256A57714673</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B94C7A87-9062-2012-CAAD-69228786699C" referredColumn="EE809E85-0A72-FBBA-0C02-CAF1592FF251"/>
+</associations>
+</Column>
+<Column name="Zajęcia_Przedmioty_Kod" id="8AB164F0-72B1-1151-A645-68CE5DE9837F">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>879BF37E-A88A-B22E-7C28-8B8E028839EF</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B94C7A87-9062-2012-CAAD-69228786699C" referredColumn="ECB00650-FA62-46CC-D4E1-837699CAFF9E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9E7C5AF-F580-61EA-A51F-53B55EFA72D2" name="Rozliczenia_Zajęć_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>11076B31-1F37-8113-33B6-EEE5ED68725F</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEE10C14-3F4E-5816-F3AF-AA0BAF774830"/>
+<colUsage columnID="8AB164F0-72B1-1151-A645-68CE5DE9837F"/>
+<colUsage columnID="CE929221-141E-5FC2-B0F6-04ABF472C38E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F47AA26C-52FF-DDA3-B3AD-3811CE9D0017" name="Rozliczenia_Zajęć_Rozliczenia_Semestrów_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>230A359E-FB6A-7D16-A3E9-ABC7993BE839</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEE10C14-3F4E-5816-F3AF-AA0BAF774830"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94B81BB2-D61B-0B7B-DB5E-AA2D7191418A" name="Rozliczenia_Zajęć_Zajęcia_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-31 19:22:44 UTC</createdTime>
+<generatorID>E721C449-A9DB-51AA-BA1C-3878CE7E269A</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE929221-141E-5FC2-B0F6-04ABF472C38E"/>
+<colUsage columnID="8AB164F0-72B1-1151-A645-68CE5DE9837F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

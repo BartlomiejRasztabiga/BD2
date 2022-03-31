@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B923CEE-3A4A-35D5-8FF4-E7D5CA61C646" name="Semestr">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-20 10:25:10 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Semestry</preferredAbbreviation>
+<shortName>SEM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rok" id="933A27AA-3FE9-6A67-46C3-087F315AA46B">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-20 17:22:14 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Okres" id="A6828092-D678-C0E3-B4E0-0B05EBB25404">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-20 17:22:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[okres semestru - L (letni) lub Z (zimowy)]]></commentInRDBMS>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5492EBBC-5439-F0EB-CB92-509ADB6D8B49" name="Semestr PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-24 09:23:39 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>933A27AA-3FE9-6A67-46C3-087F315AA46B</attributeRef>
+<attributeRef>A6828092-D678-C0E3-B4E0-0B05EBB25404</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
