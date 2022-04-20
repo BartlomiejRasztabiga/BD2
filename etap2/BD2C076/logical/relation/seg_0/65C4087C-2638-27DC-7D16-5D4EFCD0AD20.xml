@@ -4,9 +4,10 @@
 <createdTime>2022-03-21 20:44:01 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="FE82EB95-561B-55D0-0EB7-75046D075FCC" value="true"/>
+<item key="2164D50E-5EB4-8AB4-5FD4-3EB5FB8D6657" value="true"/>
 </engineerTo>
-<sourcePk>31AE190B-E26C-7211-ECCF-178E51B588E9</sourcePk>
+<targetTransferable>false</targetTransferable>
+<sourcePk>5492EBBC-5439-F0EB-CB92-509ADB6D8B49</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>rozliczany przez</nameOnSource>
 <nameOnTarget>rozlicza</nameOnTarget>

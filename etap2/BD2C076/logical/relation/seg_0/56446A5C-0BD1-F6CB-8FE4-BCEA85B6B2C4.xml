@@ -4,11 +4,11 @@
 <createdTime>2022-03-21 20:45:41 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="7254C772-4463-000D-3F26-60D36758D582" value="true"/>
+<item key="927C9122-12A4-CE87-9605-32134B74F2C4" value="true"/>
 </engineerTo>
 <targetTransferable>false</targetTransferable>
 <sourcePk>3A9E8C78-FB1D-509B-B24B-F98CCA6FEF60</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <nameOnSource>zawiera</nameOnSource>
 <nameOnTarget>zawarte w</nameOnTarget>
 <optionalSource>true</optionalSource>

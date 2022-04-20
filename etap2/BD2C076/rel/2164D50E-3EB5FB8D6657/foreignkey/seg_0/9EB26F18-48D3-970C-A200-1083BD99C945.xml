@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EB26F18-48D3-970C-A200-1083BD99C945" containerWithKeyObject="50A04567-CF8E-554B-60DB-DE5E693776DA" localFKIndex="4492A09F-F853-A949-2F0B-89538C708391" name="Instytuty_Wydziały_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-20 20:17:44 UTC</createdTime>
+<generatorID>AD5A3AE8-D6C3-87E9-30DB-BA377B05A926</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<referredTableLongName>Wydziały</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AAAC11F4-2DC6-164D-D155-770002BE9282</referredTableID>
+<keyObject>71FC8E40-145A-2480-4A9C-096FFDEF362D</keyObject>
+<referredKeyID>71FC8E40-145A-2480-4A9C-096FFDEF362D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_wydziału</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

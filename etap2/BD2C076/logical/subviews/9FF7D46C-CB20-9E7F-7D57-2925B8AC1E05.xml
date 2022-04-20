@@ -180,7 +180,7 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="201" y="105" width="91" height="30"/>
+<labelBounds x="201" y="99" width="91" height="36"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
