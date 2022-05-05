@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBEE95D8-5631-5797-C714-B1D8062E5E16" name="Zajęcia">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zajęcia prowadzone dla przedmiotu]]></commentInRDBMS>
+<generatorID>E5C2F96F-88E1-B403-66E3-3297FCB716A1</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<abbreviation>ZAJ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Typ" id="B5441F8D-3E6F-6D08-AA53-6D2D5C65AEF1">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Typ zajęć:
+W - wyklad
+C - cwiczenia
+L - laboratoria
+P - projekt]]></commentInRDBMS>
+<generatorID>AD3C6A07-E148-09CB-0485-C978E995A2A5</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przedmioty_Kod" id="15FA6365-0D3E-9E38-4E2F-C0CF76E9BDD0">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Kod przedmiotu, dla którego zdefiniowano zajęcia]]></commentInRDBMS>
+<generatorID>259B20CC-2657-2D47-A2D8-E9C03CD77B52</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1C86D87-D45D-8E1D-B501-7642024EE4CD" referredColumn="F6275507-D054-2CE4-6EAA-AE015C61730F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B9D411A-D718-A6F9-029A-47A56FFC9B1D" name="Zajęcia_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>235DE684-CA3D-D67E-DBDE-4C37A48B97D8</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5441F8D-3E6F-6D08-AA53-6D2D5C65AEF1"/>
+<colUsage columnID="15FA6365-0D3E-9E38-4E2F-C0CF76E9BDD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5704116A-5E66-3E61-B8D0-4DC17170F270" name="Zajęcia_Przedmioty_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>56446A5C-0BD1-F6CB-8FE4-BCEA85B6B2C4</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15FA6365-0D3E-9E38-4E2F-C0CF76E9BDD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

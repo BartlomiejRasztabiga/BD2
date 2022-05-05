@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47DA2BFF-2AD9-03DA-49F0-8B9EBC0E55D3" name="Rozliczenia Zajęć">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Rozliczenie pojedynczych zajęć dla konkretnego semestru]]></commentInRDBMS>
+<generatorID>A47CC407-73E3-3BE5-9621-D93594B16D95</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<abbreviation>ROZL_ZAJ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rozliczenia Semestrów_ID_rozliczenia" id="77E3889D-DA85-00C0-A8CC-7E9B92D357DE">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identyfikator rozliczenia semestru]]></commentInRDBMS>
+<generatorID>369F93B9-EDC2-DF65-E25F-DD19FF792A1E</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C105215-9865-DE42-C5E8-5C653CF35F7E" referredColumn="BE99F4F4-5320-0DFF-1C00-B14345BFBA32"/>
+</associations>
+</Column>
+<Column name="Liczba_godzin_rozliczeniowych" id="F3E89BDE-58D1-C6B9-1F65-808D6CBDBBDE">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Liczba godzin rozliczeniowych zajęć]]></commentInRDBMS>
+<generatorID>51AECBC6-C7DD-7AA5-C381-F294EBE5D119</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Liczba_godzin_rzeczywistych" id="5C3FB497-A62D-AB64-DFEA-F44876F09FB2">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Liczba godzin rzeczywistych zajęć]]></commentInRDBMS>
+<generatorID>52BF0A58-F295-961E-FAE8-2740A7B55B78</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zajęcia_Typ" id="3DD9BAD5-CD05-CBD3-0413-3F459B82B9CF">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Typ zajęć przedmiotu dla którego zdefiniowano rozliczenie]]></commentInRDBMS>
+<generatorID>6B156015-2264-C85E-A216-256A57714673</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7700239D-8302-0952-617A-74AF6275AF37" referredColumn="B5441F8D-3E6F-6D08-AA53-6D2D5C65AEF1"/>
+</associations>
+</Column>
+<Column name="Zajęcia_Przedmioty_Kod" id="F78F2921-BB00-1A38-F917-23AE4E4D8517">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Kod przedmiotu dla którego zdefiniowano rozliczenie]]></commentInRDBMS>
+<generatorID>879BF37E-A88A-B22E-7C28-8B8E028839EF</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7700239D-8302-0952-617A-74AF6275AF37" referredColumn="15FA6365-0D3E-9E38-4E2F-C0CF76E9BDD0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2549790F-8089-B89C-2B89-3286A7EBC8A8" name="Rozliczenia_Zajęć_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>11076B31-1F37-8113-33B6-EEE5ED68725F</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77E3889D-DA85-00C0-A8CC-7E9B92D357DE"/>
+<colUsage columnID="F78F2921-BB00-1A38-F917-23AE4E4D8517"/>
+<colUsage columnID="3DD9BAD5-CD05-CBD3-0413-3F459B82B9CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6A14028-9F1F-BA68-424A-4DC3417ED85F" name="Rozliczenia_Zajęć_Rozliczenia_Semestrów_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>230A359E-FB6A-7D16-A3E9-ABC7993BE839</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77E3889D-DA85-00C0-A8CC-7E9B92D357DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0137919-CB22-EAF6-7500-88B111E22004" name="Rozliczenia_Zajęć_Zajęcia_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>E721C449-A9DB-51AA-BA1C-3878CE7E269A</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DD9BAD5-CD05-CBD3-0413-3F459B82B9CF"/>
+<colUsage columnID="F78F2921-BB00-1A38-F917-23AE4E4D8517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

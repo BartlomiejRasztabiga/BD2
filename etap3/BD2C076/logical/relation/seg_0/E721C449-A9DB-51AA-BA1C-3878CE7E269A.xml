@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zajecia_maja_Rozliczenia_Zajec" directorySegmentName="seg_0" id="E721C449-A9DB-51AA-BA1C-3878CE7E269A">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-24 09:02:59 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="2164D50E-5EB4-8AB4-5FD4-3EB5FB8D6657" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>235DE684-CA3D-D67E-DBDE-4C37A48B97D8</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>rozliczane przez</nameOnSource>
+<nameOnTarget>rozlicza</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5C2F96F-88E1-B403-66E3-3297FCB716A1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A47CC407-73E3-3BE5-9621-D93594B16D95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

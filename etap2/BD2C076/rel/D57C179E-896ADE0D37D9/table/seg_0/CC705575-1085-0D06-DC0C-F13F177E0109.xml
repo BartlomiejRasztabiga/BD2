@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC705575-1085-0D06-DC0C-F13F177E0109" name="Rozliczenia Semestrów">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Rozliczenie semestru (wszystkich zajęć przedmiotów dla danego semestru)]]></commentInRDBMS>
+<generatorID>0717EA17-8667-5A41-33AA-6FAAEC7E8A83</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<abbreviation>ROZL_SEM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_rozliczenia" id="BE99F4F4-5320-0DFF-1C00-B14345BFBA32">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identyfikator rozliczenia]]></commentInRDBMS>
+<generatorID>A1BC60F2-B712-198C-18B0-A332CD4F686D</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Semestry_Rok" id="F3DB8425-6F23-4882-197A-6BDDEA0A58AF">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Rok semestru dla którego utworzono rozliczenie]]></commentInRDBMS>
+<generatorID>23F832F2-F236-4E2A-CBD5-4340FB755A5F</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A55921CE-422B-326F-2CBA-3E05F651CB36" referredColumn="F013FE57-193F-FE4E-6E75-303DB52CE7A6"/>
+</associations>
+</Column>
+<Column name="Semestry_Okres" id="260A19C0-BBCA-5E23-4BA7-D7CAAF85E918">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Okres semestru dla którego utworzono rozliczenie]]></commentInRDBMS>
+<generatorID>2EB374EA-914D-549C-7BF4-B6D2FB429EA5</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A55921CE-422B-326F-2CBA-3E05F651CB36" referredColumn="1EA1D0EA-C867-EF00-B4E3-3000CA4F8453"/>
+</associations>
+</Column>
+<Column name="Numer_wersji" id="85942350-00EB-2E72-97D3-165B718A6932">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numer wersji rozliczenia semestru]]></commentInRDBMS>
+<generatorID>E7058C24-1D5B-A778-226A-052468AC9D40</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9736E70-A9A5-2EF7-748D-917CC8B7F1CE" name="Rozliczenia_Semestrów_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>5A38C5EA-06B0-9605-1B4E-570D467930AE</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE99F4F4-5320-0DFF-1C00-B14345BFBA32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27C4526F-72DF-0FB4-9FF5-B209233851B2" name="Rozliczenia_Semestrów_Rok_Okres_Numer_wersji_UN">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>F95D6B7F-50C7-51C2-9CC2-676DFD07C4EA</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3DB8425-6F23-4882-197A-6BDDEA0A58AF"/>
+<colUsage columnID="260A19C0-BBCA-5E23-4BA7-D7CAAF85E918"/>
+<colUsage columnID="85942350-00EB-2E72-97D3-165B718A6932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9BD67CB-54F8-D0B8-18BE-08F8E13B7EA6" name="Rozliczenia_Semestrów_Semestry_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>65C4087C-2638-27DC-7D16-5D4EFCD0AD20</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3DB8425-6F23-4882-197A-6BDDEA0A58AF"/>
+<colUsage columnID="260A19C0-BBCA-5E23-4BA7-D7CAAF85E918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

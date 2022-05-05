@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rozliczenie_zawiera_Rozliczenia_Zajec" directorySegmentName="seg_0" id="230A359E-FB6A-7D16-A3E9-ABC7993BE839">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-03-24 08:58:58 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<engineerTo>
+<item key="927C9122-12A4-CE87-9605-32134B74F2C4" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>5A38C5EA-06B0-9605-1B4E-570D467930AE</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>zawiera</nameOnSource>
+<nameOnTarget>zawarte w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0717EA17-8667-5A41-33AA-6FAAEC7E8A83</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A47CC407-73E3-3BE5-9621-D93594B16D95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

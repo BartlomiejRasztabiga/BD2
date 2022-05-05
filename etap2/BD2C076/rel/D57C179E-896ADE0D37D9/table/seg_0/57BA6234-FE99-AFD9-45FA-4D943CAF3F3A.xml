@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57BA6234-FE99-AFD9-45FA-4D943CAF3F3A" name="Instytuty">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Instytut na wydziale]]></commentInRDBMS>
+<generatorID>75189E78-6B32-C908-DD41-7581549DDE7A</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<abbreviation>INST</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_instytutu" id="CAC7B7D3-3290-455A-DDEC-ECD2B118E8E0">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identyfikator instytutu]]></commentInRDBMS>
+<generatorID>56DEF907-D3ED-FEAB-214D-C254D3B1F2AB</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="52454B27-E0B7-636D-2043-62E40A7849F7">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nazwa instytutu]]></commentInRDBMS>
+<generatorID>6DC483F0-F861-1FBA-F019-EEC5B2B1A9A6</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wydziały_ID_wydziału" id="24E4FE21-2145-3669-FAF6-BCB6D49421D2">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identyfikator wydziału]]></commentInRDBMS>
+<generatorID>B1FA0489-DDFF-9C38-FA55-980AD6849161</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0144F98A-5C22-E73E-8394-95D26ED6DBC8" referredColumn="DBA83940-51CB-9369-9444-DC2FCBE41D3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C7C9310-6B20-8766-37D0-E5350389EBD9" name="Instytuty_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>E75A495F-8B26-2F37-0B5E-7ABB3144D237</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAC7B7D3-3290-455A-DDEC-ECD2B118E8E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FA413A8-F9BA-3B3C-E1C4-82463D149A36" name="Instytuty_Nazwa_UN">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>2F4193D8-3FC6-D45F-45B4-6B46F6CD8EC7</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52454B27-E0B7-636D-2043-62E40A7849F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7F87273-FC43-5C76-F80E-B1360E0F6AB4" name="Instytuty_Wydziały_FK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>AD5A3AE8-D6C3-87E9-30DB-BA377B05A926</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24E4FE21-2145-3669-FAF6-BCB6D49421D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36DF0165-F763-3F04-B679-D29B455317EC" name="Wydziały">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Wydział na uczelni]]></commentInRDBMS>
+<generatorID>B8EE9D90-F8A0-B4E1-069F-E96B0BF9C16E</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<abbreviation>WYDZ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_wydziału" id="DBA83940-51CB-9369-9444-DC2FCBE41D3A">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identyfikator wydziału]]></commentInRDBMS>
+<generatorID>8B78BBF2-E15D-24B7-5F7E-6787DDC5E1E2</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="B8BEA498-9D12-3F48-4D42-D08189BA1873">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nazwa wydziału]]></commentInRDBMS>
+<generatorID>E9042546-E39F-E497-5DC1-B67171A87F43</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84DD4BDA-30EB-FB0B-EC59-14DC6B507BD1" name="Wydziały_PK">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>443A95B8-FF49-A5FC-3A09-993639B2DC1B</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBA83940-51CB-9369-9444-DC2FCBE41D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8838E683-BA30-64EC-6D93-12CCC1824E46" name="Wydziały_Nazwa_UN">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-04-21 17:36:06 UTC</createdTime>
+<generatorID>AC08B4D6-3687-D079-94ED-9EFB12CB4931</generatorID>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8BEA498-9D12-3F48-4D42-D08189BA1873"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
