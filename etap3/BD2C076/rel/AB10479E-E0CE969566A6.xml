@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="AB10479E-CD9B-87C2-45E7-E0CE969566A6" mainViewID="BBE19E60-A9ED-D0F6-70F6-C1EFE2E50F78">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational" id="AB10479E-CD9B-87C2-45E7-E0CE969566A6" mainViewID="BBE19E60-A9ED-D0F6-70F6-C1EFE2E50F78">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:13 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
 </relationalModel>

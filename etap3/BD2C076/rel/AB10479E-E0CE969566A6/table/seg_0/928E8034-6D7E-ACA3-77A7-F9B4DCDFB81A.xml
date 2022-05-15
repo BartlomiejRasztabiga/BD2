@@ -20,6 +20,8 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nazwa" id="7FE2778E-B860-6EBC-A38B-93A374E1101E">
@@ -73,6 +75,15 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7FE2778E-B860-6EBC-A38B-93A374E1101E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1226CCC7-CE85-2E42-76DC-86D64AB59643" name="Instytuty_Wydzial___IDX">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-15 14:45:34 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C339389F-D84D-50FB-FAC2-D47645E5FC86"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="55F86A15-C492-5C29-C7F0-A6F807EBAD08" name="Instytuty_Wydziały_FK">

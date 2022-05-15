@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C403B766-ED68-603A-BACC-62261A99F861" containerWithKeyObject="B2BA9A8C-46D6-A634-AAA2-815E52316E3D" localFKIndex="76BEA00E-2C2F-6604-A44F-6BE76F0D96FA" name="Rozliczenia_Semestrów_Semestry_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C403B766-ED68-603A-BACC-62261A99F861" containerWithKeyObject="B2BA9A8C-46D6-A634-AAA2-815E52316E3D" localFKIndex="76BEA00E-2C2F-6604-A44F-6BE76F0D96FA" name="Rozlicz_Semestrów_Semestry_FK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>65C4087C-2638-27DC-7D16-5D4EFCD0AD20</generatorID>

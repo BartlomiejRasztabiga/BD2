@@ -33,6 +33,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="L" description="Letni"/>
+<valueDef value="Z" description="Zimowy"/>
+</listOfValues>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
