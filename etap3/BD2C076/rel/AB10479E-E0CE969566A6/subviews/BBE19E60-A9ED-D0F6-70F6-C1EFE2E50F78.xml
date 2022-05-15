@@ -58,7 +58,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="DDFC344D-FB7F-A9A4-40DA-127BC0F73D64" otype="Table" vid="C6D507F0-D78D-0C03-9E4C-122231BE7E1C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="340" y="80" width="335" height="139"/>
+<bounds x="340" y="80" width="344" height="149"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="ED9B38C6-D69B-F6A6-48E6-729E4446E8D8" otype="Note" vid="4D0E6308-7A97-ADD1-F2E7-9C9DD6CB2FA2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -74,8 +74,8 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="507" y="310"/>
-<point x="507" y="219"/>
+<point x="512" y="310"/>
+<point x="512" y="229"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="447AA442-62C4-CC2D-C608-650F074D64DE" otype="FKIndexAssociation" vid_source="B2CDD2D6-9405-A48D-292E-173106FFC7EB" vid_target="ACB65F85-7C6B-ABA7-C63D-F8283B8BD21B">

@@ -36,7 +36,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_wydziału" id="C339389F-D84D-50FB-FAC2-D47645E5FC86">
+<Column name="ID_wydzialu" id="C339389F-D84D-50FB-FAC2-D47645E5FC86">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>B1FA0489-DDFF-9C38-FA55-980AD6849161</generatorID>
@@ -86,7 +86,7 @@
 <colUsage columnID="C339389F-D84D-50FB-FAC2-D47645E5FC86"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="55F86A15-C492-5C29-C7F0-A6F807EBAD08" name="Instytuty_Wydziały_FK">
+<ind_PK_UK id="55F86A15-C492-5C29-C7F0-A6F807EBAD08" name="Instytuty_Wydzialy_FK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>AD5A3AE8-D6C3-87E9-30DB-BA377B05A926</generatorID>

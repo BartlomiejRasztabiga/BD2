@@ -10,7 +10,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Typ_zajęć" id="B10D66B5-2E4D-E7DE-27BD-7EA2860FD9B1">
+<Column name="Typ_zajec" id="B10D66B5-2E4D-E7DE-27BD-7EA2860FD9B1">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <commentInRDBMS><![CDATA[Typ zajęć:
@@ -24,6 +24,12 @@ P - projekt]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Ćwiczenia"/>
+<valueDef value="L" description="Laboratoria"/>
+<valueDef value="P" description="Projekt"/>
+<valueDef value="W" description="Wykład"/>
+</listOfValues>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -37,12 +43,6 @@ P - projekt]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
-<listOfValues>
-<valueDef value="C" description="Ćwiczenia"/>
-<valueDef value="L" description="Laboratoria"/>
-<valueDef value="P" description="Projekt"/>
-<valueDef value="W" description="Wykład"/>
-</listOfValues>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
