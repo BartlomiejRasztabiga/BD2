@@ -5,7 +5,7 @@
 <commentInRDBMS><![CDATA[Rozliczenie semestru (wszystkich zajęć przedmiotów dla danego semestru)]]></commentInRDBMS>
 <generatorID>0717EA17-8667-5A41-33AA-6FAAEC7E8A83</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
-<abbreviation>ROZL_SEM</abbreviation>
+<abbreviation>ROZLSEM</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -73,7 +73,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3B2EDF68-A664-D1E3-C0AB-F71B10EAB029" name="Rozliczenia_semestrow_PK">
+<ind_PK_UK id="3B2EDF68-A664-D1E3-C0AB-F71B10EAB029" name="ROZLSEM_PK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>5A38C5EA-06B0-9605-1B4E-570D467930AE</generatorID>
@@ -85,7 +85,7 @@
 <colUsage columnID="A0E71C18-B2F7-E593-7D98-C0197CDD5A7A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E7CC2277-2AEE-AE38-181E-E8E3E6B5C8AE" name="Rozliczenia_Semestrow_UN">
+<ind_PK_UK id="E7CC2277-2AEE-AE38-181E-E8E3E6B5C8AE" name="ROZLSEM_UN">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>F95D6B7F-50C7-51C2-9CC2-676DFD07C4EA</generatorID>
@@ -98,7 +98,7 @@
 <colUsage columnID="99E62FD1-1DA3-EEDE-B9C4-23333466B10C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="76BEA00E-2C2F-6604-A44F-6BE76F0D96FA" name="Rozlicz_Semestrow_Semestry_FK">
+<ind_PK_UK id="76BEA00E-2C2F-6604-A44F-6BE76F0D96FA" name="ROZLSEM_SEM_FK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>65C4087C-2638-27DC-7D16-5D4EFCD0AD20</generatorID>

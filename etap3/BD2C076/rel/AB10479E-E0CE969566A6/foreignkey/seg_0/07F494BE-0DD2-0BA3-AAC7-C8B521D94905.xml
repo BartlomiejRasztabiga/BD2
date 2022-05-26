@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07F494BE-0DD2-0BA3-AAC7-C8B521D94905" containerWithKeyObject="DDFC344D-FB7F-A9A4-40DA-127BC0F73D64" localFKIndex="9213E1F0-05B6-118D-3001-62E9B73FA231" name="Rozlicz_Zaj_Rozlicz_Semestr_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07F494BE-0DD2-0BA3-AAC7-C8B521D94905" containerWithKeyObject="DDFC344D-FB7F-A9A4-40DA-127BC0F73D64" localFKIndex="9213E1F0-05B6-118D-3001-62E9B73FA231" name="ROZLZAJ_ROZLSEM_FK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>230A359E-FB6A-7D16-A3E9-ABC7993BE839</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
-<referredTableLongName>Rozliczenia Semestrów</referredTableLongName>
+<referredTableLongName>Rozliczenia_semestrow</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B2BA9A8C-46D6-A634-AAA2-815E52316E3D</referredTableID>
 <keyObject>3B2EDF68-A664-D1E3-C0AB-F71B10EAB029</keyObject>

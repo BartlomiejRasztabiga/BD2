@@ -38,7 +38,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B39F0264-6612-02B0-55FE-EC5DE8292EA9" name="Wydzialy_PK">
+<ind_PK_UK id="B39F0264-6612-02B0-55FE-EC5DE8292EA9" name="WYDZ_PK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>443A95B8-FF49-A5FC-3A09-993639B2DC1B</generatorID>
@@ -50,7 +50,7 @@
 <colUsage columnID="213DCCC1-AF88-D530-F0DA-BA1776D580D7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A47734D1-473F-32CC-6B9B-95C10B5F2A58" name="Wydziały_Nazwa_UN">
+<ind_PK_UK id="A47734D1-473F-32CC-6B9B-95C10B5F2A58" name="WYDZ_UN">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>AC08B4D6-3687-D079-94ED-9EFB12CB4931</generatorID>

@@ -55,7 +55,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4614BB78-6D41-A9E8-3A75-9799168C503D" name="Przedmioty_PK">
+<ind_PK_UK id="4614BB78-6D41-A9E8-3A75-9799168C503D" name="PRZED_PK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>3A9E8C78-FB1D-509B-B24B-F98CCA6FEF60</generatorID>
@@ -67,7 +67,7 @@
 <colUsage columnID="3E50AC53-03B8-CBF6-4DDF-7A257E0D9624"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="263035D4-4B06-5EF3-C627-CD09717233E2" name="Przedmioty_Nazwa_UN">
+<ind_PK_UK id="263035D4-4B06-5EF3-C627-CD09717233E2" name="PRZED_UN">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>487DA3D9-B584-CAEC-5D64-10C36C1C5F12</generatorID>
@@ -78,7 +78,7 @@
 <colUsage columnID="AA7E6982-424A-5AE5-1E5E-2980F7BFA0AC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="075E2C87-BC46-C60A-9956-6EB65131318E" name="Przedmioty_Instytut___IDX">
+<ind_PK_UK id="075E2C87-BC46-C60A-9956-6EB65131318E" name="PRZED_INST_FK_IDX">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 14:46:17 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
@@ -87,7 +87,7 @@
 <colUsage columnID="EF309FCC-30ED-F502-B446-73128DF1559D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AC3555FF-BC10-546D-9BA1-4CBC2EFA88A2" name="Przedmioty_Instytuty_FK">
+<ind_PK_UK id="AC3555FF-BC10-546D-9BA1-4CBC2EFA88A2" name="PRZED_INST_FK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>B1A1EEA2-B3E2-75ED-C51E-D3C53B0E75A0</generatorID>

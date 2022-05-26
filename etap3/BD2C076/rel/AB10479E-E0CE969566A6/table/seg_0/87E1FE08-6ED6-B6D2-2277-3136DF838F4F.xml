@@ -52,7 +52,7 @@ P - projekt]]></commentInRDBMS>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="78CA0455-9EDD-BEAF-C43A-EEE5BF7275E9" name="Zajecia_PK">
+<ind_PK_UK id="78CA0455-9EDD-BEAF-C43A-EEE5BF7275E9" name="ZAJ_PK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>235DE684-CA3D-D67E-DBDE-4C37A48B97D8</generatorID>
@@ -65,7 +65,7 @@ P - projekt]]></commentInRDBMS>
 <colUsage columnID="8BFD9851-0C98-24E4-8577-0FB985E8CAF5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DE2A4FD7-2B23-998C-08D5-C3393627DD34" name="Zajęcia_Przedmioty_FK">
+<ind_PK_UK id="DE2A4FD7-2B23-998C-08D5-C3393627DD34" name="ZAJ_PRZED_FK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>56446A5C-0BD1-F6CB-8FE4-BCEA85B6B2C4</generatorID>

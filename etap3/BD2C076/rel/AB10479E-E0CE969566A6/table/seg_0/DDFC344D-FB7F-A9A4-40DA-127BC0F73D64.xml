@@ -5,7 +5,7 @@
 <commentInRDBMS><![CDATA[Rozliczenie pojedynczych zajęć dla konkretnego semestru i rozliczenia]]></commentInRDBMS>
 <generatorID>A47CC407-73E3-3BE5-9621-D93594B16D95</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
-<abbreviation>ROZL_ZAJ</abbreviation>
+<abbreviation>ROZLZAJ</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -89,7 +89,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6CD7B4A6-871D-B596-9BF9-7B4D1F26B918" name="Rozliczenia_zajec_PK">
+<ind_PK_UK id="6CD7B4A6-871D-B596-9BF9-7B4D1F26B918" name="ROZLZAJ_PK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>11076B31-1F37-8113-33B6-EEE5ED68725F</generatorID>
@@ -103,7 +103,7 @@
 <colUsage columnID="DFFFB78D-701B-6315-76E1-BA6D0A8531E1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9213E1F0-05B6-118D-3001-62E9B73FA231" name="Rozlicz_Zaj_Rozlicz_Semestr_FK">
+<ind_PK_UK id="9213E1F0-05B6-118D-3001-62E9B73FA231" name="ROZLZAJ_ROZLSEM_FK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>230A359E-FB6A-7D16-A3E9-ABC7993BE839</generatorID>
@@ -114,7 +114,7 @@
 <colUsage columnID="84E5956C-4D29-BA56-7EDA-31DA54B9AA6D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FF20B6BE-C8DF-9F76-91CE-9F2F641AE2C8" name="Rozliczenia_Zajec_Zajccia_FK">
+<ind_PK_UK id="FF20B6BE-C8DF-9F76-91CE-9F2F641AE2C8" name="ROZLZAJ_ZAJ_FK">
 <createdBy>rasztabigab</createdBy>
 <createdTime>2022-05-15 13:02:20 UTC</createdTime>
 <generatorID>E721C449-A9DB-51AA-BA1C-3878CE7E269A</generatorID>
