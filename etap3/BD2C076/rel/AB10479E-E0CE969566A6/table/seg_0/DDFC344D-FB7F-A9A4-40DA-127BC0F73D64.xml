@@ -99,8 +99,8 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="84E5956C-4D29-BA56-7EDA-31DA54B9AA6D"/>
-<colUsage columnID="A2B07262-F8ED-C502-62F7-1FCB7BE63392"/>
 <colUsage columnID="DFFFB78D-701B-6315-76E1-BA6D0A8531E1"/>
+<colUsage columnID="A2B07262-F8ED-C502-62F7-1FCB7BE63392"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9213E1F0-05B6-118D-3001-62E9B73FA231" name="ROZLZAJ_ROZLSEM_FK">
@@ -122,8 +122,8 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DFFFB78D-701B-6315-76E1-BA6D0A8531E1"/>
 <colUsage columnID="A2B07262-F8ED-C502-62F7-1FCB7BE63392"/>
+<colUsage columnID="DFFFB78D-701B-6315-76E1-BA6D0A8531E1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

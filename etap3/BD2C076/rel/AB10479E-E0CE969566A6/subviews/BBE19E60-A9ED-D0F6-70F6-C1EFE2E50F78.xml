@@ -16,7 +16,7 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3A914DB2-BC31-34AB-66FC-A97D9C759AB3" otype="Table" vid="89218A8E-F81D-0789-4DC8-05EA8C226947">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="340" y="520" width="170" height="110"/>
+<bounds x="340" y="520" width="170" height="72"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
@@ -30,7 +30,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="87E1FE08-6ED6-B6D2-2277-3136DF838F4F" otype="Table" vid="31FCE3EE-D172-3F1A-346F-32089FB1843D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="12" y="74" width="243" height="90"/>
+<bounds x="12" y="74" width="243" height="89"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
@@ -44,7 +44,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B2BA9A8C-46D6-A634-AAA2-815E52316E3D" otype="Table" vid="9A1FDB83-F557-59D7-5503-1B204F52975A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="340" y="310" width="420" height="127"/>
+<bounds x="340" y="310" width="420" height="129"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
@@ -93,7 +93,7 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <lineWidth>1</lineWidth>
 <points>
 <point x="133" y="310"/>
-<point x="133" y="164"/>
+<point x="133" y="163"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C403B766-ED68-603A-BACC-62261A99F861" otype="FKIndexAssociation" vid_source="89218A8E-F81D-0789-4DC8-05EA8C226947" vid_target="9A1FDB83-F557-59D7-5503-1B204F52975A">
@@ -101,8 +101,8 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="440" y="520"/>
-<point x="440" y="437"/>
+<point x="425" y="520"/>
+<point x="425" y="439"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C84937B5-0D7E-0BEF-B2A9-502EE5ACD236" otype="FKIndexAssociation" vid_source="31FCE3EE-D172-3F1A-346F-32089FB1843D" vid_target="C6D507F0-D78D-0C03-9E4C-122231BE7E1C">
@@ -110,8 +110,8 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="255" y="122"/>
-<point x="340" y="122"/>
+<point x="255" y="121"/>
+<point x="340" y="121"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="F1443BD9-34F7-BD5B-2DAC-F747EB14DA88" otype="FKIndexAssociation" vid_source="ACB65F85-7C6B-ABA7-C63D-F8283B8BD21B" vid_target="F1292012-E72B-31AE-5555-4B8D60902650">

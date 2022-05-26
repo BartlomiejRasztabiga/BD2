@@ -30,6 +30,7 @@ P - projekt]]></commentInRDBMS>
 <valueDef value="P" description="Projekt"/>
 <valueDef value="W" description="Wykład"/>
 </listOfValues>
+<defaultValue>W</defaultValue>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -61,8 +62,8 @@ P - projekt]]></commentInRDBMS>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B10D66B5-2E4D-E7DE-27BD-7EA2860FD9B1"/>
 <colUsage columnID="8BFD9851-0C98-24E4-8577-0FB985E8CAF5"/>
+<colUsage columnID="B10D66B5-2E4D-E7DE-27BD-7EA2860FD9B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DE2A4FD7-2B23-998C-08D5-C3393627DD34" name="ZAJ_PRZED_FK">
