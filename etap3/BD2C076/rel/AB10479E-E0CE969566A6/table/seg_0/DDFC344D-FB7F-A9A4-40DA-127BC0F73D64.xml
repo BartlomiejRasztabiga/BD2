@@ -37,6 +37,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<defaultValue>30</defaultValue>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -50,6 +51,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<defaultValue>30</defaultValue>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -63,6 +65,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Ćwiczenia"/>
+<valueDef value="L" description="Laboratoria"/>
+<valueDef value="P" description="Projekt"/>
+<valueDef value="W" description="Wykład"/>
+</listOfValues>
+<defaultValue>W</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
