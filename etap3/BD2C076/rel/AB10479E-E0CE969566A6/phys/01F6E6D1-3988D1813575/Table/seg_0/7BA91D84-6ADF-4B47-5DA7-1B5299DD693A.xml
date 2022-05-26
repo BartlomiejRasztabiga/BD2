@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Wydzialy" directorySegmentName="seg_0" id="7BA91D84-6ADF-4B47-5DA7-1B5299DD693A">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_wydzialu" id="213DCCC1-AF88-D530-F0DA-BA1776D580D7">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nazwa" id="25483F8F-1B7A-43D4-C488-2BC7635BA851">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WYDZ_PK" id="B39F0264-6612-02B0-55FE-EC5DE8292EA9">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="WYDZ_UN" id="A47734D1-473F-32CC-6B9B-95C10B5F2A58">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

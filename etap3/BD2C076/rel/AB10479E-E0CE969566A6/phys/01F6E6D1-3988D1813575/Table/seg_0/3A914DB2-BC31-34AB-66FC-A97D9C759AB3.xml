@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Semestry" directorySegmentName="seg_0" id="3A914DB2-BC31-34AB-66FC-A97D9C759AB3">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Okres" id="5B6C2408-B958-168F-081A-30D08375B533">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Rok" id="9F54F1CA-B53A-6266-DB8C-48B2C0259005">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SEM_PK" id="9C9A1031-3686-5DC8-55C0-FCA7E10946CF">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

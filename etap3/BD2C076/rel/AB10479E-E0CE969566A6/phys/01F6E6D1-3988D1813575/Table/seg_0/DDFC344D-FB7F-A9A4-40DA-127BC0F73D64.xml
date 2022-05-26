@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Rozliczenia_zajec" directorySegmentName="seg_0" id="DDFC344D-FB7F-A9A4-40DA-127BC0F73D64">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Liczba_godzin_rzeczywistych" id="37435F0F-114F-4896-06E2-19935EF04BDC">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<defaultValue>30</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="Liczba_godzin_rozliczeniowych" id="670732F5-61EF-0B79-3AE7-EF2FEB5A8CD0">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<defaultValue>30</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID_rozliczenia" id="84E5956C-4D29-BA56-7EDA-31DA54B9AA6D">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Kod_przedmiotu" id="A2B07262-F8ED-C502-62F7-1FCB7BE63392">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Typ_zajec" id="DFFFB78D-701B-6315-76E1-BA6D0A8531E1">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<defaultValue>W</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ROZLZAJ_ROZLSEM_FK" id="9213E1F0-05B6-118D-3001-62E9B73FA231">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ROZLZAJ_ZAJ_FK" id="FF20B6BE-C8DF-9F76-91CE-9F2F641AE2C8">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ROZLZAJ_PK" id="6CD7B4A6-871D-B596-9BF9-7B4D1F26B918">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

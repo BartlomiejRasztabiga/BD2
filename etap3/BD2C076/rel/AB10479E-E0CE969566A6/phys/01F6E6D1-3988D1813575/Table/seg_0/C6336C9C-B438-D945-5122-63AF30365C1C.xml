@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Przedmioty" directorySegmentName="seg_0" id="C6336C9C-B438-D945-5122-63AF30365C1C">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Kod_przedmiotu" id="3E50AC53-03B8-CBF6-4DDF-7A257E0D9624">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nazwa" id="AA7E6982-424A-5AE5-1E5E-2980F7BFA0AC">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_instytutu" id="EF309FCC-30ED-F502-B446-73128DF1559D">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRZED_INST_FK_IDX" id="075E2C87-BC46-C60A-9956-6EB65131318E">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRZED_INST_FK" id="AC3555FF-BC10-546D-9BA1-4CBC2EFA88A2">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRZED_PK" id="4614BB78-6D41-A9E8-3A75-9799168C503D">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PRZED_UN" id="263035D4-4B06-5EF3-C627-CD09717233E2">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

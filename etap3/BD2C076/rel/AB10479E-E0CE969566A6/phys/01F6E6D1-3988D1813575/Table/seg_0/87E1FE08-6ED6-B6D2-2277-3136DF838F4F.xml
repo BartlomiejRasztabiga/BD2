@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Zajecia" directorySegmentName="seg_0" id="87E1FE08-6ED6-B6D2-2277-3136DF838F4F">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Kod_przedmiotu" id="8BFD9851-0C98-24E4-8577-0FB985E8CAF5">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Typ_zajec" id="B10D66B5-2E4D-E7DE-27BD-7EA2860FD9B1">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<defaultValue>W</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ZAJ_PRZED_FK" id="DE2A4FD7-2B23-998C-08D5-C3393627DD34">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ZAJ_PK" id="78CA0455-9EDD-BEAF-C43A-EEE5BF7275E9">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:09:02 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
