@@ -1,0 +1,106 @@
+SQL> 
+SQL> -- test unikalnosci nazw wydzialow + uzupelnienie sztucznego ID --
+SQL> 
+SQL> INSERT INTO WYDZIALY (NAZWA) VALUES ('Elektroniki i Technik Informacyjnych');
+
+Error starting at line : 5 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO WYDZIALY (NAZWA) VALUES ('Elektroniki i Technik Informacyjnych')
+Error report -
+ORA-00001: unique constraint (BD2C076.WYDZ_UN) violated
+
+SQL> 
+SQL> -- test unikalnosci nazw instytutow + uzupelnienie sztucznego ID --
+SQL> 
+SQL> INSERT INTO INSTYTUTY (NAZWA, ID_WYDZIALU) VALUES ('II', 1);
+
+Error starting at line : 9 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO INSTYTUTY (NAZWA, ID_WYDZIALU) VALUES ('II', 1)
+Error report -
+ORA-00001: unique constraint (BD2C076.INST_UN) violated
+
+SQL> 
+SQL> -- test unikalnosci nazw przedmiotow --
+SQL> 
+SQL> INSERT INTO PRZEDMIOTY (KOD_PRZEDMIOTU, NAZWA, ID_INSTYTUTU) VALUES ('103C-INxxx-ISP-BD2', 'Bazy danych 2', 1);
+
+Error starting at line : 13 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO PRZEDMIOTY (KOD_PRZEDMIOTU, NAZWA, ID_INSTYTUTU) VALUES ('103C-INxxx-ISP-BD2', 'Bazy danych 2', 1)
+Error report -
+ORA-00001: unique constraint (BD2C076.PRZED_PK) violated
+
+SQL> 
+SQL> -- test unikalnosci kodow przedmiotow --
+SQL> 
+SQL> INSERT INTO PRZEDMIOTY (KOD_PRZEDMIOTU, NAZWA, ID_INSTYTUTU) VALUES ('103C-INxxx-ISP-BD2', 'Bazy danych 1', 1);
+
+Error starting at line : 17 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO PRZEDMIOTY (KOD_PRZEDMIOTU, NAZWA, ID_INSTYTUTU) VALUES ('103C-INxxx-ISP-BD2', 'Bazy danych 1', 1)
+Error report -
+ORA-00001: unique constraint (BD2C076.PRZED_PK) violated
+
+SQL> 
+SQL> -- test unikalnosci typu zajec dla jednego przedmiotu --
+SQL> INSERT INTO ZAJECIA (TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES ('W', '103C-INxxx-ISP-BD2');
+
+Error starting at line : 20 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO ZAJECIA (TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES ('W', '103C-INxxx-ISP-BD2')
+Error report -
+ORA-00001: unique constraint (BD2C076.ZAJ_PK) violated
+
+SQL> 
+SQL> -- test unikalnosci pary (rok, okres) --
+SQL> INSERT INTO SEMESTRY (ROK, OKRES) VALUES (2022, 'L');
+
+Error starting at line : 23 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO SEMESTRY (ROK, OKRES) VALUES (2022, 'L')
+Error report -
+ORA-00001: unique constraint (BD2C076.SEM_PK) violated
+
+SQL> 
+SQL> -- test inkrementacji numeru wersji dla pary (rok, okres) --
+SQL> INSERT INTO ROZLICZENIA_SEMESTROW (ROK, OKRES) VALUES (2022, 'L');
+
+1 row inserted.
+
+SQL> INSERT INTO ROZLICZENIA_SEMESTROW (ROK, OKRES) VALUES (2022, 'L');
+
+1 row inserted.
+
+SQL> 
+SQL> -- test rok >= 1970 --
+SQL> INSERT INTO SEMESTRY (ROK, OKRES) VALUES (1950, 'L');
+
+Error starting at line : 30 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO SEMESTRY (ROK, OKRES) VALUES (1950, 'L')
+Error report -
+ORA-02290: check constraint (BD2C076.SYS_C00149525) violated
+
+SQL> 
+SQL> -- test liczba godzin >= 0 --
+SQL> INSERT INTO ROZLICZENIA_ZAJEC (ID_ROZLICZENIA, LICZBA_GODZIN_ROZLICZENIOWYCH, LICZBA_GODZIN_RZECZYWISTYCH, TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES (1, -2, -3, 'W', '103C-INxxx-ISP-BD2');
+
+Error starting at line : 33 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO ROZLICZENIA_ZAJEC (ID_ROZLICZENIA, LICZBA_GODZIN_ROZLICZENIOWYCH, LICZBA_GODZIN_RZECZYWISTYCH, TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES (1, -2, -3, 'W', '103C-INxxx-ISP-BD2')
+Error report -
+ORA-02290: check constraint (BD2C076.SYS_C00149520) violated
+
+SQL> 
+SQL> -- test zajecia.typ_zajec (mozliwe wartosci) --
+SQL> INSERT INTO ZAJECIA (TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES ('X', '103C-INxxx-ISP-BD2');
+
+Error starting at line : 36 File @ /home/rasztabigab/Insync/bartlomiej.rasztabiga.official@gmail.com/Google Drive/Studia/4 sem/BD2/projekt/etap3/test_inserts.dml
+In command -
+INSERT INTO ZAJECIA (TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES ('X', '103C-INxxx-ISP-BD2')
+Error report -
+ORA-02290: check constraint (BD2C076.SYS_C00149534) violated
+
+SQL> 
+SQL> spool off

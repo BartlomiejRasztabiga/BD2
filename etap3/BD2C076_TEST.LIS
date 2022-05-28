@@ -1,0 +1,55 @@
+SQL> 
+SQL> SELECT * FROM ROZLICZENIA_ZAJEC rozlzaj
+  2  LEFT JOIN ZAJECIA zaj ON (rozlzaj.typ_zajec = zaj.typ_zajec AND rozlzaj.kod_przedmiotu = zaj.kod_przedmiotu)
+  3  LEFT JOIN ROZLICZENIA_SEMESTROW rozlsem ON (rozlzaj.id_rozliczenia = rozlsem.id_rozliczenia)
+  4  WHERE rozlzaj.kod_przedmiotu = '103C-INxxx-ISP-BD2' AND rozlsem.rok = 2022 AND rozlsem.okres = 'Z' AND rozlsem.numer_wersji = 1;
+
+ID_ROZLICZENIA LICZBA_GODZIN_ROZLICZENIOWYCH LICZBA_GODZIN_RZECZYWISTYCH T KOD_PRZEDMIOTU                                     T KOD_PRZEDMIOTU                                     ID_ROZLICZENIA        ROK O NUMER_WERSJI
+-------------- ----------------------------- --------------------------- - -------------------------------------------------- - -------------------------------------------------- -------------- ---------- - ------------
+             1                            15                          15 P 103C-INxxx-ISP-BD2                                 P 103C-INxxx-ISP-BD2                                              1       2022 Z            1
+             1                            30                          30 W 103C-INxxx-ISP-BD2                                 W 103C-INxxx-ISP-BD2                                              1       2022 Z            1
+
+SQL> 
+SQL> SELECT * FROM PRZEDMIOTY przed
+  2  LEFT JOIN INSTYTUTY inst ON (przed.id_instytutu = inst.id_instytutu)
+  3  LEFT JOIN WYDZIALY wydz ON (inst.id_wydzialu = wydz.id_wydzialu);
+
+KOD_PRZEDMIOTU                                     NAZWA                                                                                                ID_INSTYTUTU ID_INSTYTUTU NAZWA                                                                                                ID_WYDZIALU
+-------------------------------------------------- ---------------------------------------------------------------------------------------------------- ------------ ------------ ---------------------------------------------------------------------------------------------------- -----------
+ID_WYDZIALU NAZWA                                                                                               
+----------- ----------------------------------------------------------------------------------------------------
+103A-INxxx-ISP-WSI                                 Wprowadzenie do sztucznej inteligencji                                                                          1            1 II                                                                                                             1 
+          1 
+                                                   Elektroniki i Technik Informacyjnych             
+
+103C-INxxx-ISP-BD2                                 Bazy danych 2                                                                                                   2            2 IAiIS                                                                                                          1 
+          1 
+                                                   Elektroniki i Technik Informacyjnych             
+
+103A-INxxx-ISP-WSYZ                                Wprowadzenie do systemów zarządzania                                                                            2            2 IAiIS                                                                                                          1 
+          1 
+                                                   Elektroniki i Technik Informacyjnych             
+
+
+SQL> 
+SQL> SELECT rozlsem.id_rozliczenia, sem.rok, sem.okres, rozlsem.numer_wersji FROM SEMESTRY sem
+  2  RIGHT JOIN ROZLICZENIA_SEMESTROW rozlsem ON (sem.rok = rozlsem.rok AND sem.okres = rozlsem.okres)
+  3  ORDER BY sem.rok ASC, sem.okres, rozlsem.numer_wersji ASC;
+
+ID_ROZLICZENIA        ROK O NUMER_WERSJI
+-------------- ---------- - ------------
+             2       2022 L            1
+             3       2022 L            2
+             1       2022 Z            1
+
+SQL> 
+SQL> SELECT DISTINCT(typ_zajec) FROM ZAJECIA;
+
+T
+-
+W
+L
+P
+
+SQL> 
+SQL> spool off

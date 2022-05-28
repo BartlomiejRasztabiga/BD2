@@ -1,0 +1,38 @@
+spool BD2C076_DML.LIS
+
+-- test unikalnosci nazw wydzialow + uzupelnienie sztucznego ID --
+
+INSERT INTO WYDZIALY (NAZWA) VALUES ('Elektroniki i Technik Informacyjnych');
+
+-- test unikalnosci nazw instytutow + uzupelnienie sztucznego ID --
+
+INSERT INTO INSTYTUTY (NAZWA, ID_WYDZIALU) VALUES ('II', 1);
+
+-- test unikalnosci nazw przedmiotow --
+
+INSERT INTO PRZEDMIOTY (KOD_PRZEDMIOTU, NAZWA, ID_INSTYTUTU) VALUES ('103C-INxxx-ISP-BD2', 'Bazy danych 2', 1);
+
+-- test unikalnosci kodow przedmiotow --
+
+INSERT INTO PRZEDMIOTY (KOD_PRZEDMIOTU, NAZWA, ID_INSTYTUTU) VALUES ('103C-INxxx-ISP-BD2', 'Bazy danych 1', 1);
+
+-- test unikalnosci typu zajec dla jednego przedmiotu --
+INSERT INTO ZAJECIA (TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES ('W', '103C-INxxx-ISP-BD2');
+
+-- test unikalnosci pary (rok, okres) --
+INSERT INTO SEMESTRY (ROK, OKRES) VALUES (2022, 'L');
+
+-- test inkrementacji numeru wersji dla pary (rok, okres) --
+INSERT INTO ROZLICZENIA_SEMESTROW (ROK, OKRES) VALUES (2022, 'L');
+INSERT INTO ROZLICZENIA_SEMESTROW (ROK, OKRES) VALUES (2022, 'L');
+
+-- test rok >= 1970 --
+INSERT INTO SEMESTRY (ROK, OKRES) VALUES (1950, 'L');
+
+-- test liczba godzin >= 0 --
+INSERT INTO ROZLICZENIA_ZAJEC (ID_ROZLICZENIA, LICZBA_GODZIN_ROZLICZENIOWYCH, LICZBA_GODZIN_RZECZYWISTYCH, TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES (1, -2, -3, 'W', '103C-INxxx-ISP-BD2');
+
+-- test zajecia.typ_zajec (mozliwe wartosci) --
+INSERT INTO ZAJECIA (TYP_ZAJEC, KOD_PRZEDMIOTU) VALUES ('X', '103C-INxxx-ISP-BD2');
+
+spool off
