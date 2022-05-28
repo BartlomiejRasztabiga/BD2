@@ -21,6 +21,17 @@
 <defaultValue>W</defaultValue>
 </ColumnProxy>
 </columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Zajecia" id="2E35929F-421D-F15F-6D11-E504C9294092">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-28 18:30:21 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<objectName>Zajecia</objectName>
+<objectUser>CE3F55C4-23E1-D531-A75C-112F4D3E907A</objectUser>
+<user>E51A6873-A121-FABC-7301-38D3FBFE699B</user>
+<referredObjectID>87E1FE08-6ED6-B6D2-2277-3136DF838F4F</referredObjectID>
+</Synonym>
+</synonyms>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ZAJ_PRZED_FK" id="DE2A4FD7-2B23-998C-08D5-C3393627DD34">
 <createdBy>rasztabigab</createdBy>

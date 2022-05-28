@@ -31,6 +31,17 @@
 <ownerDesignName>BD2C076</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Rozliczenia_semestrow" id="8BA6EC87-A0A8-606F-0C2D-267447323AB8">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-28 18:29:48 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<objectName>Rozliczenia_semestrow</objectName>
+<objectUser>CE3F55C4-23E1-D531-A75C-112F4D3E907A</objectUser>
+<user>E51A6873-A121-FABC-7301-38D3FBFE699B</user>
+<referredObjectID>B2BA9A8C-46D6-A634-AAA2-815E52316E3D</referredObjectID>
+</Synonym>
+</synonyms>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ROZLSEM_SEM_FK" id="76BEA00E-2C2F-6604-A44F-6BE76F0D96FA">
 <createdBy>rasztabigab</createdBy>

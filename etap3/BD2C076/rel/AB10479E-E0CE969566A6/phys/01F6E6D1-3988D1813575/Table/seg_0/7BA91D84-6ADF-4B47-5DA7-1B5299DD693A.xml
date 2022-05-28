@@ -20,6 +20,17 @@
 <ownerDesignName>BD2C076</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Wydzialy" id="6D9319DB-CD9A-0217-F9FB-638F73159FC5">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-28 18:30:13 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<objectName>Wydzialy</objectName>
+<objectUser>CE3F55C4-23E1-D531-A75C-112F4D3E907A</objectUser>
+<user>E51A6873-A121-FABC-7301-38D3FBFE699B</user>
+<referredObjectID>7BA91D84-6ADF-4B47-5DA7-1B5299DD693A</referredObjectID>
+</Synonym>
+</synonyms>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WYDZ_PK" id="B39F0264-6612-02B0-55FE-EC5DE8292EA9">
 <createdBy>rasztabigab</createdBy>

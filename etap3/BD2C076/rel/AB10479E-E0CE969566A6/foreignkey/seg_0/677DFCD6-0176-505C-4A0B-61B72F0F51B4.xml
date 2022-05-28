@@ -5,7 +5,7 @@
 <generatorID>56446A5C-0BD1-F6CB-8FE4-BCEA85B6B2C4</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <referredTableLongName>Przedmioty</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>C6336C9C-B438-D945-5122-63AF30365C1C</referredTableID>
 <keyObject>4614BB78-6D41-A9E8-3A75-9799168C503D</keyObject>
 <referredKeyID>4614BB78-6D41-A9E8-3A75-9799168C503D</referredKeyID>

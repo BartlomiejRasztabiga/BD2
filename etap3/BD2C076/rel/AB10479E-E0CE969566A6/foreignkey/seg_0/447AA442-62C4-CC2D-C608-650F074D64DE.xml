@@ -5,7 +5,7 @@
 <generatorID>AD5A3AE8-D6C3-87E9-30DB-BA377B05A926</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <referredTableLongName>Wydzialy</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>7BA91D84-6ADF-4B47-5DA7-1B5299DD693A</referredTableID>
 <keyObject>B39F0264-6612-02B0-55FE-EC5DE8292EA9</keyObject>
 <referredKeyID>B39F0264-6612-02B0-55FE-EC5DE8292EA9</referredKeyID>

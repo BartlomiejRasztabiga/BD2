@@ -32,6 +32,17 @@
 <ownerDesignName>BD2C076</ownerDesignName>
 </IndexProxy>
 </indexProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Przedmioty" id="6E7BC322-AF01-A3C1-9AE8-E82F09F1972E">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-28 18:29:40 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<objectName>Przedmioty</objectName>
+<objectUser>CE3F55C4-23E1-D531-A75C-112F4D3E907A</objectUser>
+<user>E51A6873-A121-FABC-7301-38D3FBFE699B</user>
+<referredObjectID>C6336C9C-B438-D945-5122-63AF30365C1C</referredObjectID>
+</Synonym>
+</synonyms>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRZED_INST_FK" id="AC3555FF-BC10-546D-9BA1-4CBC2EFA88A2">
 <createdBy>rasztabigab</createdBy>

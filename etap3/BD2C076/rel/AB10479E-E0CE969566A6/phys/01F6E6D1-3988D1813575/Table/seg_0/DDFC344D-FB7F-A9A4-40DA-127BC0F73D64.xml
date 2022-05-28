@@ -38,6 +38,17 @@
 <defaultValue>W</defaultValue>
 </ColumnProxy>
 </columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Rozliczenia_zajec" id="8C06DF81-40C8-F5AE-724C-3EAD878C5EF6">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-28 18:29:57 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<objectName>Rozliczenia_zajec</objectName>
+<objectUser>CE3F55C4-23E1-D531-A75C-112F4D3E907A</objectUser>
+<user>E51A6873-A121-FABC-7301-38D3FBFE699B</user>
+<referredObjectID>DDFC344D-FB7F-A9A4-40DA-127BC0F73D64</referredObjectID>
+</Synonym>
+</synonyms>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ROZLZAJ_ROZLSEM_FK" id="9213E1F0-05B6-118D-3001-62E9B73FA231">
 <createdBy>rasztabigab</createdBy>
