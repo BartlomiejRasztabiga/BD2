@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="BD2C076" directorySegmentName="seg_0" id="CE3F55C4-23E1-D531-A75C-112F4D3E907A">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:56:46 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<identifier>0502C6A2F0A9DEF584AFB7426A3A605248</identifier>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions14" id="8DA83366-5641-4913-8698-FD8721E900B1">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:57:22 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<privilegesWithGrantOption>ALL PRIVILEGES</privilegesWithGrantOption>
+<table>928E8034-6D7E-ACA3-77A7-F9B4DCDFB81A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions15" id="BDB2D0B0-6193-DEA1-ECA2-2EF67C3CD0C0">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:57:22 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<privilegesWithGrantOption>ALL PRIVILEGES</privilegesWithGrantOption>
+<table>C6336C9C-B438-D945-5122-63AF30365C1C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions16" id="B957722C-7CA5-5FC5-F424-8CC7B0F48C75">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:57:22 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<privilegesWithGrantOption>ALL PRIVILEGES</privilegesWithGrantOption>
+<table>B2BA9A8C-46D6-A634-AAA2-815E52316E3D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions17" id="CBD71E3E-5D42-C846-3DAA-5F53A0A9A44B">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:57:22 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<privilegesWithGrantOption>ALL PRIVILEGES</privilegesWithGrantOption>
+<table>DDFC344D-FB7F-A9A4-40DA-127BC0F73D64</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions18" id="694FE66C-005D-D058-7013-401E51B16D13">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:57:22 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<privilegesWithGrantOption>ALL PRIVILEGES</privilegesWithGrantOption>
+<table>3A914DB2-BC31-34AB-66FC-A97D9C759AB3</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions19" id="4F530B52-4000-640C-C795-038582465D27">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-26 19:57:22 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<privilegesWithGrantOption>ALL PRIVILEGES</privilegesWithGrantOption>
+<table>87E1FE08-6ED6-B6D2-2277-3136DF838F4F</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

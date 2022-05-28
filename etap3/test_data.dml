@@ -1,0 +1,5 @@
+INSERT INTO WYDZIALY (NAZWA) VALUES ('Elektroniki i Technik Informacyjnych');
+INSERT INTO WYDZIALY (NAZWA) VALUES ('Elektryczny');
+INSERT INTO WYDZIALY (NAZWA) VALUES ('Matematyki i Nauk Informacyjnych Politechniki Warszawskiej');
+
+COMMIT;
