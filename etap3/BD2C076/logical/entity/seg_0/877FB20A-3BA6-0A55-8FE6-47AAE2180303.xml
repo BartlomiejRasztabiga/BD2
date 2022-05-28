@@ -5,7 +5,7 @@
 <commentInRDBMS><![CDATA[Przedmiot prowadzony przez instytut]]></commentInRDBMS>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="D57C179E-11AD-F4EA-C45D-896ADE0D37D9" value="true"/>
+<item key="AB10479E-CD9B-87C2-45E7-E0CE969566A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -24,7 +24,7 @@
 <commentInRDBMS><![CDATA[Kod przedmiotu (np. 103C-INxxx-ISP-BD2)]]></commentInRDBMS>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="D57C179E-11AD-F4EA-C45D-896ADE0D37D9" value="true"/>
+<item key="AB10479E-CD9B-87C2-45E7-E0CE969566A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,13 +38,13 @@
 <commentInRDBMS><![CDATA[Pełna nazwa przedmiotu (np. Bazy danych 2)]]></commentInRDBMS>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="D57C179E-11AD-F4EA-C45D-896ADE0D37D9" value="true"/>
+<item key="AB10479E-CD9B-87C2-45E7-E0CE969566A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID instytutu" id="B9BA6C01-CE4C-4383-7368-4BA1B5633793">
 <createdBy>rasztabigab</createdBy>
@@ -53,7 +53,7 @@
 <generatorID>B1A1EEA2-B3E2-75ED-C51E-D3C53B0E75A0</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="D57C179E-11AD-F4EA-C45D-896ADE0D37D9" value="true"/>
+<item key="AB10479E-CD9B-87C2-45E7-E0CE969566A6" value="true"/>
 </engineerTo>
 <referedAttribute>56DEF907-D3ED-FEAB-214D-C254D3B1F2AB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,7 +69,7 @@
 <createdTime>2022-03-20 17:19:27 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="D57C179E-11AD-F4EA-C45D-896ADE0D37D9" value="true"/>
+<item key="AB10479E-CD9B-87C2-45E7-E0CE969566A6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -81,7 +81,7 @@
 <createdTime>2022-03-23 21:26:35 UTC</createdTime>
 <ownerDesignName>BD2C076</ownerDesignName>
 <engineerTo>
-<item key="D57C179E-11AD-F4EA-C45D-896ADE0D37D9" value="true"/>
+<item key="AB10479E-CD9B-87C2-45E7-E0CE969566A6" value="true"/>
 </engineerTo>
 <newElementsIDs>FC1FD695-6C07-AE83-73EE-3E3DAA6E75FC</newElementsIDs>
 <usedAttributes>
