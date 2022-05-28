@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="rozlsem_numer_wersji_trg" directorySegmentName="seg_0" id="CCDFEFA1-C9D1-D850-4E05-FB57BB3BF2AD">
+<createdBy>rasztabigab</createdBy>
+<createdTime>2022-05-28 17:45:35 UTC</createdTime>
+<ownerDesignName>BD2C076</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[DECLARE
+    next_numer_wersji number(3);
+BEGIN
+    SELECT COALESCE(MAX(numer_wersji), 0) + 1 INTO next_numer_wersji FROM rozliczenia_semestrow WHERE rok=:new.rok AND okres=:new.okres;
+    :new.numer_wersji := next_numer_wersji;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<state>ENABLE</state>
+<table>B2BA9A8C-46D6-A634-AAA2-815E52316E3D</table>
+</TriggerOraclev10g>
