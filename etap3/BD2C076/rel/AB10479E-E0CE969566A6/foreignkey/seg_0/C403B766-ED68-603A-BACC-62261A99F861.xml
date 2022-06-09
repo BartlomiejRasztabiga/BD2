@@ -5,7 +5,7 @@
 <generatorID>65C4087C-2638-27DC-7D16-5D4EFCD0AD20</generatorID>
 <ownerDesignName>BD2C076</ownerDesignName>
 <referredTableLongName>Semestry</referredTableLongName>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 <referredTableID>3A914DB2-BC31-34AB-66FC-A97D9C759AB3</referredTableID>
 <keyObject>9C9A1031-3686-5DC8-55C0-FCA7E10946CF</keyObject>
 <referredKeyID>9C9A1031-3686-5DC8-55C0-FCA7E10946CF</referredKeyID>

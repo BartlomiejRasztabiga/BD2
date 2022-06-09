@@ -193,13 +193,11 @@ ALTER TABLE zajecia ADD CONSTRAINT zaj_pk PRIMARY KEY ( kod_przedmiotu,
 ALTER TABLE instytuty
     ADD CONSTRAINT inst_wydz_fk FOREIGN KEY ( id_wydzialu )
         REFERENCES wydzialy ( id_wydzialu )
-            ON DELETE CASCADE
     DEFERRABLE;
 
 ALTER TABLE przedmioty
     ADD CONSTRAINT przed_inst_fk FOREIGN KEY ( id_instytutu )
         REFERENCES instytuty ( id_instytutu )
-            ON DELETE CASCADE
     DEFERRABLE;
 
 ALTER TABLE rozliczenia_semestrow
@@ -207,7 +205,6 @@ ALTER TABLE rozliczenia_semestrow
                                                 okres )
         REFERENCES semestry ( rok,
                               okres )
-            ON DELETE CASCADE
     DEFERRABLE;
 
 ALTER TABLE rozliczenia_zajec
@@ -227,7 +224,6 @@ ALTER TABLE rozliczenia_zajec
 ALTER TABLE zajecia
     ADD CONSTRAINT zaj_przed_fk FOREIGN KEY ( kod_przedmiotu )
         REFERENCES przedmioty ( kod_przedmiotu )
-            ON DELETE CASCADE
     DEFERRABLE;
 
 GRANT SELECT, INSERT, UPDATE, DELETE ON instytuty TO bd2c076_app WITH GRANT OPTION;

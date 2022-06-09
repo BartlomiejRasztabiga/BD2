@@ -23,42 +23,42 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7BA91D84-6ADF-4B47-5DA7-1B5299DD693A" otype="Table" vid="B2CDD2D6-9405-A48D-292E-173106FFC7EB">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="10" y="740" width="234" height="80"/>
+<bounds x="10" y="740" width="243" height="83"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="87E1FE08-6ED6-B6D2-2277-3136DF838F4F" otype="Table" vid="31FCE3EE-D172-3F1A-346F-32089FB1843D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="12" y="74" width="243" height="89"/>
+<bounds x="12" y="74" width="249" height="97"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="928E8034-6D7E-ACA3-77A7-F9B4DCDFB81A" otype="Table" vid="ACB65F85-7C6B-ABA7-C63D-F8283B8BD21B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="10" y="520" width="247" height="132"/>
+<bounds x="10" y="520" width="253" height="149"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B2BA9A8C-46D6-A634-AAA2-815E52316E3D" otype="Table" vid="9A1FDB83-F557-59D7-5503-1B204F52975A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="340" y="310" width="344" height="129"/>
+<bounds x="340" y="310" width="353" height="149"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C6336C9C-B438-D945-5122-63AF30365C1C" otype="Table" vid="F1292012-E72B-31AE-5555-4B8D60902650">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="10" y="310" width="247" height="132"/>
+<bounds x="10" y="310" width="261" height="148"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="DDFC344D-FB7F-A9A4-40DA-127BC0F73D64" otype="Table" vid="C6D507F0-D78D-0C03-9E4C-122231BE7E1C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="340" y="80" width="344" height="149"/>
+<bounds x="340" y="80" width="354" height="164"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="ED9B38C6-D69B-F6A6-48E6-729E4446E8D8" otype="Note" vid="4D0E6308-7A97-ADD1-F2E7-9C9DD6CB2FA2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -74,8 +74,8 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="512" y="310"/>
-<point x="512" y="229"/>
+<point x="516" y="310"/>
+<point x="516" y="244"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="447AA442-62C4-CC2D-C608-650F074D64DE" otype="FKIndexAssociation" vid_source="B2CDD2D6-9405-A48D-292E-173106FFC7EB" vid_target="ACB65F85-7C6B-ABA7-C63D-F8283B8BD21B">
@@ -83,8 +83,8 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="127" y="740"/>
-<point x="127" y="652"/>
+<point x="131" y="740"/>
+<point x="131" y="669"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="677DFCD6-0176-505C-4A0B-61B72F0F51B4" otype="FKIndexAssociation" vid_source="F1292012-E72B-31AE-5555-4B8D60902650" vid_target="31FCE3EE-D172-3F1A-346F-32089FB1843D">
@@ -92,8 +92,8 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="133" y="310"/>
-<point x="133" y="163"/>
+<point x="136" y="310"/>
+<point x="136" y="171"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C403B766-ED68-603A-BACC-62261A99F861" otype="FKIndexAssociation" vid_source="89218A8E-F81D-0789-4DC8-05EA8C226947" vid_target="9A1FDB83-F557-59D7-5503-1B204F52975A">
@@ -102,7 +102,7 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <lineWidth>1</lineWidth>
 <points>
 <point x="425" y="520"/>
-<point x="425" y="439"/>
+<point x="425" y="459"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C84937B5-0D7E-0BEF-B2A9-502EE5ACD236" otype="FKIndexAssociation" vid_source="31FCE3EE-D172-3F1A-346F-32089FB1843D" vid_target="C6D507F0-D78D-0C03-9E4C-122231BE7E1C">
@@ -110,8 +110,8 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="255" y="121"/>
-<point x="340" y="121"/>
+<point x="261" y="125"/>
+<point x="340" y="125"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="F1443BD9-34F7-BD5B-2DAC-F747EB14DA88" otype="FKIndexAssociation" vid_source="ACB65F85-7C6B-ABA7-C63D-F8283B8BD21B" vid_target="F1292012-E72B-31AE-5555-4B8D60902650">
@@ -119,8 +119,8 @@ bartlomiej.rasztabiga.stud@pw.edu.pl</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="133" y="520"/>
-<point x="133" y="442"/>
+<point x="136" y="520"/>
+<point x="136" y="458"/>
 </points>
 </Connector>
 </connectors>
